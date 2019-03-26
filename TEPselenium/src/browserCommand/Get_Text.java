@@ -12,7 +12,7 @@ public class Get_Text {
 		String URL="https://www.facebook.com"; // create a variable for url
 		driver.navigate().to(URL);
 		
-	String text=driver.findElement(By.xpath("//*[text()='Sign Up']")).getText();
+	 String text=driver.findElement(By.xpath("//*[text()='Sign Up']")).getText();
       System.out.println("the text is "+" "+text);
       
       String text1=driver.findElement(By.xpath("//*[text()=' Connect with friends and the']")).getText();

@@ -10,7 +10,8 @@ public class GetURL {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		String URL = driver.getCurrentUrl();
-		System.out.println("the Facebook title is "+" "+ URL);
+	
+		System.out.println("the Facebook URL is "+" "+ URL);
 		
 
 	}

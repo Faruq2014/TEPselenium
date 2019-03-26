@@ -19,9 +19,11 @@ public class ExplicitlyWait {
 		  driver.manage().window().maximize();
 		
 		
-		  WebDriverWait wait = new WebDriverWait(driver, 10);
+		  WebDriverWait wait = new WebDriverWait(driver, 30);
 		 WebElement element = driver.findElement(By.xpath("//input[starts-with(@id,'u_0')]"));
 		wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+		
+		
 
 	}
 

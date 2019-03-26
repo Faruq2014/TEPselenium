@@ -13,7 +13,8 @@ public class ImplicitlyWait {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		  driver.manage().window().maximize();
-		  driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		 
 		  driver.findElement(By.xpath("//input[starts-with(@id,'u_0')]")).click();
 		  driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
 

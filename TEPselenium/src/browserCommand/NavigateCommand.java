@@ -8,6 +8,7 @@ public class NavigateCommand {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDriver\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		
 		String URL="https://www.facebook.com"; // create a variable for url
 		
 		driver.navigate().to(URL);
@@ -16,6 +17,7 @@ public class NavigateCommand {
 		 * clicking on a webelement.
 		 */
 		driver.navigate().back();
+
 		/*
 		 * with the navigate command we have option to navigate backward and forward. 
 		 */

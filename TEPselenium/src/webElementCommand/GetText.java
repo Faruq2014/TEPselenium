@@ -21,6 +21,11 @@ public class GetText {
 	       // System.out.println( driver.findElement(By.partialLinkText("Forgot")).getText());
            WebElement text= driver.findElement(By.partialLinkText("Forgot"));
            System.out.println(" the partial text is"+" "+ text.getText());
+           
+           //WebElement text1= driver.findElement(By.partialLinkText("Connect with friends and the"));
+          // System.out.println(" the partial text is"+" "+ text1.getText());
+           
+           
 	        driver.quit();
 
 	}

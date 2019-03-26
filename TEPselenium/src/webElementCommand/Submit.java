@@ -21,6 +21,7 @@ public class Submit {
 	        //driver.findElement(By.cssSelector("input[id^=u_0]")).submit();
 	       WebElement element= driver.findElement(By.cssSelector("input[id^=u_0]"));
 	       element.submit();
+	       
 
 
 	

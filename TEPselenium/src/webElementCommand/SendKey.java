@@ -16,9 +16,11 @@ public class SendKey {
  
         driver.get("https://www.facebook.com/");
        // driver.findElement(By.cssSelector("input[class=inputtext]")).sendKeys("aaaa");
-        driver.findElement(By.cssSelector(".inputtext")).sendKeys("aaaaa");
+        //driver.findElement(By.cssSelector(".inputtext")).sendKeys("aaaaa");
+        driver.findElement(By.id("email")).sendKeys("abc@ymail.com");
         //combination of 2css because inputtext
-        driver.findElement(By.cssSelector("input[class=inputtext][id=pass]")).sendKeys("bbbb");
+        //driver.findElement(By.cssSelector("input[class=inputtext][id=pass]")).sendKeys("bbbb");
+        driver.findElement(By.name("pass")).sendKeys("pass123");
        
 
 	}

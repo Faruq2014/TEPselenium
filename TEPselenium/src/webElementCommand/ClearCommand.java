@@ -16,7 +16,8 @@ public class ClearCommand {
         
         driver.get("https://www.facebook.com/");
       //driver.findElement(By.cssSelector("input[id=email]")).sendKeys("aaaa");
-        driver.findElement(By.cssSelector("#email")).sendKeys("aaaa");
+       // driver.findElement(By.cssSelector("#email")).sendKeys("aaaa");
+        driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
         driver.findElement(By.cssSelector("#email")).clear();
         
         driver.findElement(By.cssSelector("#pass")).sendKeys("abcd1234");
