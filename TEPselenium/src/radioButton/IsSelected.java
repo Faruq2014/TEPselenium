@@ -17,18 +17,26 @@ public class IsSelected {
        driver.manage().window().maximize();
  
        driver.get("http://facebook.com");
+       /*
+        * Radio button normally auto selected. so you want to make sure if by default 
+        * one button is selected then you have to use boolean method with if else 
+        * condition. 
+        */
 		List<WebElement>rbt = driver.findElements(By.name("sex"));
 		boolean b =rbt.get(0).isSelected();
+		/*boolean = data type
+		 * b= reference object name
+		 * rbt.get(0).isSelected();= is the value of b
+		 * boolean b =rbt.get(0).isSelected();== true(by default)
+		 */
 		System.out.println(b);
-		if(b=false) {rbt.get(0).click();
+		if(b=true) {rbt.get(0).click();
 			Thread.sleep(3000);}
 		else {rbt.get(1).click();}
 		
 		
 		
-		//rbt.get(0).click();
-		//Thread.sleep(3000);
-		//rbt.get(1).click();
+		
 		
 
 	}

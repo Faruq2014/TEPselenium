@@ -19,8 +19,8 @@ public class Xpath1a {
 		      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 
 	        driver.get("https://www.facebook.com/");
-	      driver.findElement(By.xpath("//input[@class='inputtext'][@name='email']")).sendKeys("molla@yahoo.com");
-	    driver.findElement(By.xpath("//input[@class='inputtext'][@name='pass']")).sendKeys("molla4321");
+	      driver.findElement(By.xpath("//input[@class='inputtext'][@name='email']")).sendKeys("abc@yahoo.com");
+	    driver.findElement(By.xpath("//input[@class='inputtext'][@name='pass']")).sendKeys("abc4321");
 	    //both input box has same value class= inputtext. so combined two attribute together.
 	        
 	        driver.quit();

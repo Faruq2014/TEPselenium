@@ -11,6 +11,7 @@ public class Maximize {
 		driver.get("https://www.facebook.com");
 		
 		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		
 		
 		

@@ -21,13 +21,13 @@ public class Xpath2b {
 	     
 	        driver.navigate().to("https://www.google.com/");
 	        driver.findElement(By.xpath("//*[@id='gbw']/div/div/div[1]/div[1]/a")).click();
-	        Thread.sleep(2000);
+	        Thread.sleep(4000);
 	        driver.navigate().back();
 	       driver.findElement(By.xpath("//*[@id='gbw']/div/div/div[1]/div[2]/a")).click();
 	      
 	       
-	        driver.quit();
+	        //driver.quit();
 
 	}
-
+	//*[@id="gbw"]/div/div/div[1]/div[1]/a
 }

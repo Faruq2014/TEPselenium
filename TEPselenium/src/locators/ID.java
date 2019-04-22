@@ -21,6 +21,8 @@ public class ID {
 	        driver.findElement(By.id("email")).sendKeys("molla@yahoo.com");
 	        driver.findElement(By.id("pass")).sendKeys("abcd1234");
 	        driver.findElement(By.id("u_0_2")).click();
+	       // driver.findElement(By.id("email")).sendKeys("ffff");
+	       
 
 }
 

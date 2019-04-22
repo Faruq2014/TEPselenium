@@ -20,7 +20,8 @@ public class Xpath3 {
 	 
 	      
 	        driver.navigate().to("https://www.google.com/");
-	        
+	      //*[@id="fsr"]/a[1]
+	      //*[@id="fsr"]/a[2]
 	       
 	        driver.findElement(By.xpath("//*[@id='fsr']/a[2]")).click();
 	        Thread.sleep(1000);

@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SendKey {
@@ -17,11 +18,14 @@ public class SendKey {
         driver.get("https://www.facebook.com/");
        // driver.findElement(By.cssSelector("input[class=inputtext]")).sendKeys("aaaa");
         //driver.findElement(By.cssSelector(".inputtext")).sendKeys("aaaaa");
-        driver.findElement(By.id("email")).sendKeys("abc@ymail.com");
+        //driver.findElement(By.id("email")).sendKeys("abc@ymail.com");
+       // driver.findElement(By.id("email")).sendKeys("abc@yahoo.com");
+        driver.findElement(By.name("email")).sendKeys("703333993hfhfhf");
         //combination of 2css because inputtext
         //driver.findElement(By.cssSelector("input[class=inputtext][id=pass]")).sendKeys("bbbb");
-        driver.findElement(By.name("pass")).sendKeys("pass123");
+       // driver.findElement(By.name("pass")).sendKeys("pass123");
        
+      String id="email";
 
 	}
 

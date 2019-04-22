@@ -21,12 +21,17 @@ public class CSS_id {
 	        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 
 	        driver.get("https://www.facebook.com/");
-	        //driver.findElement(By.cssSelector("input[id=email]")).sendKeys("aaaa");
-	        driver.findElement(By.cssSelector("#email")).sendKeys("aaaa");
+	        driver.findElement(By.cssSelector("input[id=email]")).sendKeys("aaaa");
+	        //driver.findElement(By.cssSelector("#email")).sendKeys("aaaa");
+	     
 	        
-	        
-	        
+	      /*  CSS formula= element_name[<attribute_name>='<value>']
+	        		                   input[id=email]
+                   
+
+	        */
 	        driver.findElement(By.cssSelector("#pass")).sendKeys("abcd1234");
+	        
 	        driver.findElement(By.cssSelector("input[id^=u_0]")).click();
 	       System.out.println( driver.findElement(By.cssSelector(".fsl")).getText());
      

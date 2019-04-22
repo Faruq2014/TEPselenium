@@ -21,10 +21,10 @@ public class Xpath1 {
 		        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 
 	        driver.get("https://www.facebook.com/");
-	        //driver.findElement(By.id("email")).sendKeys("molla@yahoo.com");
-	        //driver.findElement(By.xpath("//input[@id='email']")).sendKeys("molla@yahoo.com");
-	     // driver.findElement(By.xpath("//input[@name='email']")).sendKeys("molla@yahoo.com");
-	    driver.findElement(By.xpath("//input[@class='inputtext']")).sendKeys("molla@yahoo.com");
+	        //driver.findElement(By.id("email")).sendKeys("abc@yahoo.com");
+	        //driver.findElement(By.xpath("//input[@id='email']")).sendKeys("abc@yahoo.com");
+	     // driver.findElement(By.xpath("//input[@name='email']")).sendKeys("abc@yahoo.com");
+	    driver.findElement(By.xpath("//input[@class='inputtext']")).sendKeys("abc@yahoo.com");
 	   
 	        
 	        

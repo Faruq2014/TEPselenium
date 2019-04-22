@@ -20,8 +20,7 @@ public class CSS_name {
 	        driver.get("https://www.facebook.com/");
 	        driver.findElement(By.cssSelector("input[name=email]")).sendKeys("aaaa");
 	        driver.findElement(By.cssSelector("input[name=pass]")).sendKeys("bbbb");
-	        
-	        //driver.findElement(By.id("pass")).sendKeys("abcd1234");
+	         //driver.findElement(By.id("pass")).sendKeys("abcd1234");
 	        //driver.findElement(By.cssSelector("input[value=Log In]")).click();
 	        driver.findElement(By.cssSelector("input[type=submit]")).click();
 	       System.out.println( driver.findElement(By.cssSelector(".fsl")).getText());

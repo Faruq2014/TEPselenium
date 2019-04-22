@@ -20,6 +20,7 @@ public class GetTagName {
 	 
 	       driver.navigate().to("https://www.facebook.com/");
 	       WebElement element= driver.findElement(By.cssSelector("input[id^=u_0]"));
+	       //WebElement element= driver.findElement(By.id("email"));
 	       System.out.println(element.getTagName());
 	       driver.quit();
 	      

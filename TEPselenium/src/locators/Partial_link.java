@@ -20,6 +20,8 @@ public class Partial_link {
 	        driver.get("https://www.facebook.com/");
 	        driver.findElement(By.partialLinkText("Forgot")).click();
 	        //full link is = Forgot account?
+	        //driver.findElement(By.linkText("Forgot account?")).click();
+	       
 	        System.out.println( driver.findElement(By.partialLinkText("Forgot")).getText());
 
 	}

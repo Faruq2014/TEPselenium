@@ -26,7 +26,10 @@ public class GetCommand {
 		 */
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.facebook.com");
+		
+		
+	driver.get("https://www.facebook.com");
+	
 		// 2nd command
 		driver.findElement(By.xpath("//input[starts-with(@id,'u_0')]")).click();
 		

@@ -12,6 +12,8 @@ public class NavigateCommand {
 		String URL="https://www.facebook.com"; // create a variable for url
 		
 		driver.navigate().to(URL);
+		
+		//driver.navigate().to("https://www.facebook.com");
 		driver.findElement(By.xpath("//input[starts-with(@id,'u_0')]")).click();
 		/*
 		 * clicking on a webelement.

@@ -9,7 +9,7 @@ public class FullScreen {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		  driver.manage().window().fullscreen();
-		  Thread.sleep(3000);
+		  Thread.sleep(5000);
 		  driver.quit();
 	
 }

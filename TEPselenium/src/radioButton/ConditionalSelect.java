@@ -32,6 +32,7 @@ public class ConditionalSelect {
 					boolean Value = false;
 					Value = rdBtn.get(1).isSelected();
 					System.out.println(Value);
+					
 					if(Value == true){
 					rdBtn.get(0).click();
 					}else{

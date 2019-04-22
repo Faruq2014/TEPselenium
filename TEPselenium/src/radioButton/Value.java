@@ -28,9 +28,16 @@ public class Value {
 
 		
 		int iSize = chkBx.size();
+		System.out.println("total index is "+" "+iSize);
+		/*
+		 * int= data type
+		 * iSize= object name
+		 * 
+		 */
 		for(int i=0; i < iSize ; i++ ){
 	
-		String sValue = chkBx.get(i).getAttribute("value");
+		String sValue = chkBx.get(i).getAttribute("id");
+		
 			System.out.println("value is"+" "+sValue);
 			
 			

@@ -19,8 +19,8 @@ public class GetAttribute {
 	        driver.manage().window().maximize();
 	 
 	       driver.navigate().to("https://www.facebook.com/");
-	       WebElement element=  driver.findElement(By.id("u_0_2"));
-	      String s= element.getAttribute("id");
+	       WebElement element=  driver.findElement(By.id("email"));
+	      String s= element.getAttribute("class");
 	       System.out.println(element.getAttribute("id"));
 	     // String S = element.getAttribute("id");
 	       System.out.println(s);

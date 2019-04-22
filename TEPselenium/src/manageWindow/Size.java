@@ -13,8 +13,10 @@ public class Size {
 		driver.manage().window().maximize();
 		
 		Dimension size= driver.manage().window().getSize();
+		//Dimension size1=driver.manage().window().getSize();
 	    System.out.println("window size is "+" "+ size);
-	    Dimension dimension = new Dimension(800, 400);
+	    
+	    Dimension dimension = new Dimension(800, 800);
 	    driver.manage().window().setSize(dimension);
 	   // driver.manage().window().maximize();
 

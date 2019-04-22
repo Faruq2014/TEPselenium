@@ -15,7 +15,8 @@ public class IsDisplayed {
        driver.manage().window().maximize();
  
         driver.get("https://www.facebook.com/");
-        boolean b=  driver.findElement(By.cssSelector(".inputtext")).isDisplayed();
+        //boolean b=  driver.findElement(By.cssSelector(".inputtext")).isDisplayed();
+       boolean b = driver.findElement(By.id("email")).isDisplayed();
         System.out.println(b);
         if(b=true) {
         	driver.findElement(By.cssSelector(".inputtext")).sendKeys("aaaaa");	
