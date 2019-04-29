@@ -24,10 +24,19 @@ public class VisibleText {
        
         WebElement element = driver.findElement(By.id("month"));
        Select month = new Select(element);
+        /*
+         * we can click drop down by three ways
+         * index number, index number is integer value
+         * visible tex is string value
+         * value is string value.
+         */
        
-		//month.selectByVisibleText("Jan");
+       
+      //month.selectByVisibleText("Jan");
 	
-	    month.selectByVisibleText("Feb");
+	   // month.selectByVisibleText("Feb");
+	   // month.selectByVisibleText("Mar");
+	    month.selectByValue("12");
 	    
 	
 		//driver.quit();

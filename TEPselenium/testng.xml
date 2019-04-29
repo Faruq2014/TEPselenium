@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG.Description"/>
+      <class name="testNG.Groups"/>
+      <class name="testNG.EnableTrueFalse"/>
+      <class name="testNG.Groups1"/>
+      <class name="testNG.BeforeAfterInOrder"/>
+      <class name="testNG.Assertion"/>
+      <class name="testNG.DependsOnMethod"/>
+      <class name="testNG.BeforeAfter"/>
+      <class name="testNG.Priority"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

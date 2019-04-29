@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group">
+  <test thread-count="5" name="Test">
+    <groups>
+    <run>
+    <!-- <include name="functional" /> --> 
+     <include name="Regression" />
+     
+     <!-- 
+      <include name="functional"  />
+      <exclude name="smoke"  />
+      <exclude name="functional"  />
+       <exclude name="Regression"  />
+      -->
+      
+     </run>
+  </groups>
+  
+    <classes>
+      <class name="testNG.Groups"/>
+        <class name="testNG.Groups1"/>
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

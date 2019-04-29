@@ -1,0 +1,32 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG" verbose="1" >
+
+<!-- also can name them smoke or functional or regression test, 
+so we can create batch for lots of class or test together -->
+  <test name="batch1" >   
+    <classes>
+       <class name="testNG.BeforeAfter" />
+        <class name="testNG.Assertion" />
+    </classes>
+  </test>
+  
+  <test name="batch2" >
+    <classes>
+       <class name="testNG.Description" />
+        <class name="testNG.DependsOnMethod" />
+    </classes>
+  </test>
+  
+   <test name="batch3" >
+    <classes>
+       <class name="testNG.Groups" />
+        <class name="testNG.Groups1" />
+    </classes>
+  </test>
+  
+  
+ 
+  
+</suite>

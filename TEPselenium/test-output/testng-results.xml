@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30878" started-at="2019-04-29T02:06:51Z" finished-at="2019-04-29T02:07:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30878" started-at="2019-04-29T02:06:51Z" finished-at="2019-04-29T02:07:22Z">
+      <class name="testNG.Assertion">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="launchBrowser" is-config="true" duration-ms="9833" started-at="2019-04-29T02:06:51Z" finished-at="2019-04-29T02:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="verifyHomepageTitle" is-config="true" duration-ms="1501" started-at="2019-04-29T02:07:01Z" finished-at="2019-04-29T02:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="login()[pri:1, instance:testNG.Assertion@55f3ddb1]" name="login" duration-ms="9770" started-at="2019-04-29T02:07:02Z" finished-at="2019-04-29T02:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="goBackToHomepage()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="goBackToHomepage" is-config="true" duration-ms="4300" started-at="2019-04-29T02:07:12Z" finished-at="2019-04-29T02:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="verifyHomepageTitle" is-config="true" duration-ms="37" started-at="2019-04-29T02:07:16Z" finished-at="2019-04-29T02:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="forgot()[pri:2, instance:testNG.Assertion@55f3ddb1]" name="forgot" duration-ms="1616" started-at="2019-04-29T02:07:16Z" finished-at="2019-04-29T02:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot -->
+        <test-method status="PASS" signature="goBackToHomepage()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="goBackToHomepage" is-config="true" duration-ms="2553" started-at="2019-04-29T02:07:18Z" finished-at="2019-04-29T02:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="aftertest" is-config="true" duration-ms="1228" started-at="2019-04-29T02:07:21Z" finished-at="2019-04-29T02:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testNG.Assertion -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

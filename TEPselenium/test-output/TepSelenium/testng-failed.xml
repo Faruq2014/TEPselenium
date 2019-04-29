@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TepSelenium]">
+  <test thread-count="5" name="Testng2(failed)">
+    <classes>
+      <class name="testNG.BeforeAfter">
+        <methods>
+          <include name="goBackToHomepage"/>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+          <include name="verifyHomepageTitle"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- testNG.BeforeAfter -->
+    </classes>
+  </test> <!-- Testng2(failed) -->
+</suite> <!-- Failed suite [TepSelenium] -->

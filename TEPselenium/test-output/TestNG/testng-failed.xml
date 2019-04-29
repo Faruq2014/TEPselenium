@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG]">
+  <test thread-count="5" name="batch1(failed)">
+    <classes>
+      <class name="testNG.BeforeAfter">
+        <methods>
+          <include name="goBackToHomepage"/>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+          <include name="verifyHomepageTitle"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- testNG.BeforeAfter -->
+    </classes>
+  </test> <!-- batch1(failed) -->
+  <test thread-count="5" name="batch3(failed)">
+    <classes>
+      <class name="testNG.Groups1">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- testNG.Groups1 -->
+    </classes>
+  </test> <!-- batch3(failed) -->
+</suite> <!-- Failed suite [TestNG] -->

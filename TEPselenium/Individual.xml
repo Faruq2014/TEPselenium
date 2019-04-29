@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TepSelenium">
+
+  <test thread-count="5" name="Testng1">
+    <classes>
+      <class name="testNG.BeforeAfterInOrder"/>
+       </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Testng2">
+    <classes>
+      <class name="testNG.BeforeAfter"/>
+       </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Testng3">
+    <classes>
+        <class name="testNG.Priority"/>
+      </classes>
+  </test> <!-- Test -->
+  
+   
+</suite> <!-- Suite -->

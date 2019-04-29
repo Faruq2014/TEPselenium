@@ -1,5 +1,6 @@
 package dropdown;
 
+
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -27,9 +28,10 @@ public class ListWebElement {
 	        // we can nested the object inside the constructor to work with drop down.
 			Select month = new Select(driver.findElement(By.id("month")));
 		 //select method + driver method = month method.
-	   
+			
+	
 	     
-	    List<WebElement> number=month.getOptions(); // building----> getOptions()+List()= number(reference name)
+	    List<WebElement> number= month.getOptions(); // building----> getOptions()+List()= number(reference name)
 	  //month.getOptions() is a method, number is a reference object name and List<WebElements> is a data type and a method.
 	    
 	   int list = number.size();
@@ -39,7 +41,9 @@ public class ListWebElement {
 	   
 	   for (int i = 0; i < list; i++) {
 		 String monthName = month.getOptions().get(i).getText();
+		int length= month.getOptions().get(i).getTagName().length();
 		 System.out.println(monthName);
+		 System.out.println(length);
 		
 		 } 
 

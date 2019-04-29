@@ -22,6 +22,7 @@ public class Option {
 		Select month = new Select(driver.findElement(By.id("month")));
 		month.selectByVisibleText("Jan");
 	// how to clear selected option
+	
 	  month.getOptions().clear();
 	 Thread.sleep(3000);
 	month.selectByVisibleText("Feb"); 
@@ -29,6 +30,7 @@ public class Option {
 	
 	// how to get text from index 
 	String monthName=month.getOptions().get(2).getText();
+
 	System.out.println("index number 2 month name is"+" "+ monthName);
 	
 	// how to get total number of drop down options.
