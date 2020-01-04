@@ -17,6 +17,7 @@ public class Close {
 		driver.findElement(By.id("cookie-use-link")).click();
 		Thread.sleep(3000);
 		driver.close();
+		//driver.quit();
 	
 
 	}

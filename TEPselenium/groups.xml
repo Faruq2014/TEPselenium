@@ -4,10 +4,11 @@
   <test thread-count="5" name="Test">
     <groups>
     <run>
-    <!-- <include name="functional" /> --> 
-     <include name="Regression" />
+    
+      <exclude name="smoke"  />
+     <include name="functional"  />
      
-     <!-- 
+      <!-- 
       <include name="functional"  />
       <exclude name="smoke"  />
       <exclude name="functional"  />

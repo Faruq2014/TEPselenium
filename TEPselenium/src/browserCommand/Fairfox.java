@@ -2,29 +2,29 @@ package browserCommand;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class GetCommand {
+public class Fairfox {
 
 	public static void main(String[] args) {
-		GetCommand gc = new GetCommand();
-		gc.Chrome();
+		Fairfox ff = new Fairfox();
+		ff.fairfox();
 		
 
 	}
 	
-	public void Chrome() {
-		 
-		
-		/*WebDriver is an interface and chrome driver is a class. 
+	public void fairfox() {
+		System.setProperty("webdriver.gecko.driver", "C:\\SeleniumDriver\\geckodriver.exe");
+		/*set property for Fairfox driver, and put the value from your local machine.
+		 * shift and right click on the file and copy as a path. 
 		 * 
 		 */
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDriver\\chromedriver_win32\\chromedriver.exe");
-		/*set property for chrome driver, and put the value from your local machine.
-		 * shift and right click on the file and copy as a path. 
+		
+		/*WebDriver is an interface and Fairfox driver is a class. 
+		 * 
 		 */
-
-		WebDriver driver = new ChromeDriver();
+		
+		WebDriver driver = new FirefoxDriver();
 		
 		
 	driver.get("https://www.facebook.com");

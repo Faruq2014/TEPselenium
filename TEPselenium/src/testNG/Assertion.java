@@ -28,6 +28,7 @@ public class Assertion {
     public String expected = null;
     public String actual = null;
     SoftAssert softassert = new SoftAssert();
+   // Assert assert1 = new Assert();
     
     @BeforeTest
     public void launchBrowser() {
@@ -76,8 +77,9 @@ public void login(){
        String actualTitle = driver.getTitle();
        System.out.println("the hompage title is"+" "+actualTitle );
       // Assert.fail();// will directly fail your test case
-       softassert.assertEquals(actualTitle, expectedTitle);
+       softassert.assertEquals(expectedTitle, actualTitle);
        softassert.assertAll();
+      // Assert.assertNotEquals(expectedTitle, actualTitle);
        
 }
 
@@ -94,6 +96,8 @@ public void forgot(){
       String actualTitle = driver.getTitle();
     softassert.assertEquals(actualTitle, expectedTitle);
     softassert.assertAll();
+    
+    
      
 }
 

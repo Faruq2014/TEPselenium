@@ -3,18 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.DependsOnMethod">
+      <class name="testNG.Assertion">
         <methods>
+          <include name="verifyHomepageTitle"/>
           <include name="forgot"/>
           <include name="login"/>
-          <include name="verifyHomepageTitle"/>
-          <include name="goBackToHomepage"/>
-          <include name="launchBrowser"/>
           <include name="aftertest"/>
-          <include name="postComment"/>
-          <include name="clickLike"/>
+          <include name="launchBrowser"/>
+          <include name="goBackToHomepage"/>
         </methods>
-      </class> <!-- testNG.DependsOnMethod -->
+      </class> <!-- testNG.Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

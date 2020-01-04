@@ -48,6 +48,7 @@ public class DataParameterization {
 		System.out.println("----------------------------");
 	}
 	@DataProvider // data provider for parameter
+	
 	public Object [][] getData(){  //calling method for parameter
 		
 		Object [][] data = new Object[4][5];

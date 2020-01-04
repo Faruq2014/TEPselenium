@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Group]">
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="functional"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testNG.BeforeAfter">
-        <methods>
-          <include name="goBackToHomepage"/>
-          <include name="launchBrowser"/>
-          <include name="login"/>
-          <include name="verifyHomepageTitle"/>
-          <include name="aftertest"/>
-        </methods>
-      </class> <!-- testNG.BeforeAfter -->
       <class name="testNG.Groups1">
         <methods>
           <include name="loginTest"/>
@@ -19,4 +16,4 @@
       </class> <!-- testNG.Groups1 -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+</suite> <!-- Failed suite [Group] -->
