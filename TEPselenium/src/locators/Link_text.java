@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Link_text {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		//System.setProperty("webdriver.gecko.driver", "C:\\gecko\\geckodriver-v0.19.1-win64\\geckodriver.exe");
 	      // WebDriver   driver = new FirefoxDriver();
@@ -20,8 +20,9 @@ public class Link_text {
 	 
 	        driver.get("http://www.seleniumhq.org");
 	        
-	        driver.findElement(By.linkText("Download")).click();
-	        System.out.println( driver.findElement(By.linkText("Download")).getText());
+	        driver.findElement(By.linkText("Downloads")).click();
+	        Thread.sleep(2000);
+	        System.out.println( driver.findElement(By.linkText("Downloads")).getText());
 
 	}
 }

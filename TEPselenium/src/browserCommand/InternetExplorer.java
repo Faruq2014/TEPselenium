@@ -24,9 +24,9 @@ public class InternetExplorer {
 		
 		/*WebDriver is an interface and InternetExplorer driver is a class. 
 		 * 
-		 */
+		 */		WebDriver driver = new InternetExplorerDriver();
+
 		
-		WebDriver driver = new InternetExplorerDriver();
 		driver.get("https://www.facebook.com");
 	
 		// 2nd command

@@ -17,6 +17,7 @@ public class IsSelected {
        driver.manage().window().maximize();
  
        driver.get("http://facebook.com");
+       
 		List<WebElement>rbt = driver.findElements(By.name("sex"));
 		boolean b =rbt.get(0).isSelected();
 		System.out.println(b);

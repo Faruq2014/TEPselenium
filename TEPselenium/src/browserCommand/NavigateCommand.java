@@ -9,11 +9,11 @@ public class NavigateCommand {
 		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDriver\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		String URL="https://www.facebook.com"; // create a variable for url
+		//String URL="https://www.facebook.com"; // create a variable for url
 		
-		driver.navigate().to(URL);
-		
-		//driver.navigate().to("https://www.facebook.com");
+		//driver.navigate().to(URL);
+		//driver.navigate().to(arg0);
+		driver.navigate().to("https://www.facebook.com");
 		driver.findElement(By.xpath("//input[starts-with(@id,'u_0')]")).click();
 		/*
 		 * clicking on a webelement.
@@ -24,7 +24,7 @@ public class NavigateCommand {
 		 * with the navigate command we have option to navigate backward and forward. 
 		 */
 		driver.navigate().forward();
-		driver.navigate().to(URL);
+	
 		driver.navigate().refresh();
 		/*
 		 * get and navigate command does same thing.

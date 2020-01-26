@@ -23,6 +23,7 @@ public class Partial_link {
 	        //driver.findElement(By.linkText("Forgot account?")).click();
 	       
 	        System.out.println( driver.findElement(By.partialLinkText("Forgot")).getText());
+	        
 
 	}
 

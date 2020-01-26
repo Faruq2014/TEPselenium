@@ -23,8 +23,7 @@ public class Fairfox {
 		/*WebDriver is an interface and Fairfox driver is a class. 
 		 * 
 		 */
-		
-		WebDriver driver = new FirefoxDriver();
+				WebDriver driver = new FirefoxDriver();
 		
 		
 	driver.get("https://www.facebook.com");

@@ -11,6 +11,8 @@ public class Commands {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDriver\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
+		
+		   
 
 		// Wait For Page To Load
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);

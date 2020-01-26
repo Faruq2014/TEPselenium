@@ -16,6 +16,7 @@ public class Click {
 	        driver.manage().window().maximize();
 	 
 	        driver.navigate().to("https://www.facebook.com/");
+	        
 	        driver.findElement(By.cssSelector("td.login_form_label_field:nth-child(2)")).click();
 	        driver.navigate().back();
 	        driver.findElement(By.cssSelector("#reg_pages_msg > a:nth-child(1)")).click();

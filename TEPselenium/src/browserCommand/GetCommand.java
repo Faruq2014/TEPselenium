@@ -20,6 +20,7 @@ public class GetCommand {
 		 * 
 		 */
 		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDriver\\chromedriver_win32\\chromedriver.exe");
+	
 		/*set property for chrome driver, and put the value from your local machine.
 		 * shift and right click on the file and copy as a path. 
 		 */
@@ -27,7 +28,7 @@ public class GetCommand {
 		WebDriver driver = new ChromeDriver();
 		
 		
-	driver.get("https://www.facebook.com");
+	    driver.get("https://www.facebook.com");
 	
 		// 2nd command
 		driver.findElement(By.xpath("//input[starts-with(@id,'u_0')]")).click();
