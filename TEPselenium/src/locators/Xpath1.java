@@ -24,7 +24,7 @@ public class Xpath1 {
 	        //driver.findElement(By.id("email")).sendKeys("abc@yahoo.com");
 	        //driver.findElement(By.xpath("//input[@id='email']")).sendKeys("abc@yahoo.com");
 	     // driver.findElement(By.xpath("//input[@name='email']")).sendKeys("abc@yahoo.com");
-	    driver.findElement(By.xpath("//input[@class='inputtext']")).sendKeys("abc@yahoo.com");
+	    driver.findElement(By.xpath("//input[@class='inputtext login_form_input_box']")).sendKeys("abc@yahoo.com");
 	   
 	        
 	        
