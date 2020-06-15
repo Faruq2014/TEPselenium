@@ -3,7 +3,7 @@ package testNG;
 import org.testng.annotations.Test;
 
 public class Groups {
-	
+	{System.out.println("FunctionalTest");};
 	@Test(groups={"smoke"})
 	public void login(){
 		System.out.println("log in test");

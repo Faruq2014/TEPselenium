@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Group]">
-  <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="smoke"/>
-        <include name="functional"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testNG.Groups1">
+      <class name="windowHandle.Master">
         <methods>
-          <include name="loginTest"/>
+          <include name="iterator"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- testNG.Groups1 -->
+      </class> <!-- windowHandle.Master -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Group] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

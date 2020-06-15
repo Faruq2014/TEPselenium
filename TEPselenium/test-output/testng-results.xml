@@ -1,45 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34111" started-at="2020-01-05T19:21:54Z" finished-at="2020-01-05T19:22:28Z">
+  <suite name="Default suite" duration-ms="27301" started-at="2020-04-07T20:34:46Z" finished-at="2020-04-07T20:35:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34111" started-at="2020-01-05T19:21:54Z" finished-at="2020-01-05T19:22:28Z">
-      <class name="testNG.Assertion">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="launchBrowser" is-config="true" duration-ms="10975" started-at="2020-01-05T19:21:54Z" finished-at="2020-01-05T19:22:05Z">
+    <test name="Default test" duration-ms="27301" started-at="2020-04-07T20:34:46Z" finished-at="2020-04-07T20:35:13Z">
+      <class name="windowHandle.EnhenceLoop">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:windowHandle.EnhenceLoop@4f933fd1]" name="setUpClass" is-config="true" duration-ms="13736" started-at="2020-04-07T16:34:46Z" finished-at="2020-04-07T16:35:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="verifyHomepageTitle" is-config="true" duration-ms="28" started-at="2020-01-05T19:22:05Z" finished-at="2020-01-05T19:22:05Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="iterator()[pri:0, instance:windowHandle.EnhenceLoop@4f933fd1]" name="iterator" duration-ms="13542" started-at="2020-04-07T16:35:00Z" finished-at="2020-04-07T16:35:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomepageTitle -->
-        <test-method status="PASS" signature="login()[pri:1, instance:testNG.Assertion@55f3ddb1]" name="login" duration-ms="12936" started-at="2020-01-05T19:22:05Z" finished-at="2020-01-05T19:22:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="goBackToHomepage()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="goBackToHomepage" is-config="true" duration-ms="3065" started-at="2020-01-05T19:22:18Z" finished-at="2020-01-05T19:22:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHomepage -->
-        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="verifyHomepageTitle" is-config="true" duration-ms="27" started-at="2020-01-05T19:22:21Z" finished-at="2020-01-05T19:22:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomepageTitle -->
-        <test-method status="PASS" signature="forgot()[pri:2, instance:testNG.Assertion@55f3ddb1]" name="forgot" duration-ms="3001" started-at="2020-01-05T19:22:21Z" finished-at="2020-01-05T19:22:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot -->
-        <test-method status="PASS" signature="goBackToHomepage()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="goBackToHomepage" is-config="true" duration-ms="2992" started-at="2020-01-05T19:22:24Z" finished-at="2020-01-05T19:22:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHomepage -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:testNG.Assertion@55f3ddb1]" name="aftertest" is-config="true" duration-ms="1050" started-at="2020-01-05T19:22:27Z" finished-at="2020-01-05T19:22:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- testNG.Assertion -->
+        </test-method> <!-- iterator -->
+      </class> <!-- windowHandle.EnhenceLoop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
